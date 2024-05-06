@@ -12,7 +12,7 @@ function Movelist(){
         const getMovies=async ()=> {
             const response = await fetch("http://localhost:6665/movies")
             const m=await response.json()
-            console.log("Movies",m)
+            console.log("Movies1",m)
             setMovies(m)
         }
         getMovies()
